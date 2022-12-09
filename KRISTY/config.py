@@ -12,7 +12,7 @@ def get_user_list(config, key):
 class Config(object):
     LOGGER = True
     MONGO_DB_URI = "mongodb+srv://vcbot:vcbot@cluster0.yqipgxg.mongodb.net/?retryWrites=true&w=majority"
-    ARQ_API_URL = "EMJCKT-LFEXOP-UVMOXX-QOMCCD-ARQ"
+    ARQ_API_KEY = "EMJCKT-LFEXOP-UVMOXX-QOMCCD-ARQ"
     # REQUIRED
     # Login to https://my.t = ""elegram.org and fill in these slots with the details given by it
     ALLOW_CHATS = True
