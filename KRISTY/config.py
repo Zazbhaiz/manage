@@ -10,6 +10,12 @@ def get_user_list(config, key):
 
 # Create a new config.py or rename this to config.py file in same dir and import, then extend this class.
 class Config(object):
+    SESSION_STRING = ""
+    INFOPIC = ""
+    BOT_USERNAME = "Zazbhaiboy"
+    STRING_SESSION = ""
+    LASTFM_API_KEY = ""
+    CF_API_KEY = ""
     LOGGER = True
     MONGO_DB_URI = "mongodb+srv://vcbot:vcbot@cluster0.yqipgxg.mongodb.net/?retryWrites=true&w=majority"
     ARQ_API_KEY = "EMJCKT-LFEXOP-UVMOXX-QOMCCD-ARQ"
