@@ -14,11 +14,11 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = 123456  # integer value, dont use ""
-    API_HASH = "awoo"
-    TOKEN = "BOT_TOKEN"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = 1820525265  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "I_AM_PRO_KING"
+    API_ID = 1663897  # integer value, dont use ""
+    API_HASH = "1875206e088b4afe272ee51fdb310a46"
+    TOKEN = "5610720597:AAFpnAaWncbj7IgAf6QJj722C8S8YFzVspM"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    OWNER_ID = 1463712862  # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "Zazbhai"
     SUPPORT_CHAT = "KRISTY_AF"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
         -1001692951318
@@ -28,13 +28,13 @@ class Config(object):
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = "something://somewhat:user@hosturl:port/databasename"  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = "postgres://adltsqzy:cxsiGjfKE7UxidozcBFj1jFv2Geey4Ft@mouse.db.elephantsql.com/adltsqzy"  # needed for any database modules
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False
     INFOPIC = True
     URL = None
-    SPAMWATCH_API = ""  # go to support.spamwat.ch to get key
+    SPAMWATCH_API = "V3_5uuXNGXMRmLpj7WDHx4Ta5i4Dpt9eIcITkThLUVC1CzCgoDgxv~2u9vxyFaH6"  # go to support.spamwat.ch to get key
     SPAMWATCH_SUPPORT_CHAT = "@SpamWatchSupport"
 
     # OPTIONAL
