@@ -16,6 +16,8 @@ class Config(object):
     ARQ_API_URL = "https://arq.hamker.in"
     TEMP_DOWNLOAD_DIRECTORY = "./"
     OPENWEATHERMAP_ID = ""
+    HEROKU_APP_NAME = ""
+    HEROKU_APP_NAME = ""
     # REQUIRED
     # Login to https://my.t = ""elegram.org and fill in these slots with the details given by it
     ALLOW_CHATS = True
