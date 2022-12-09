@@ -11,8 +11,9 @@ def get_user_list(config, key):
 # Create a new config.py or rename this to config.py file in same dir and import, then extend this class.
 class Config(object):
     LOGGER = True
+    MONGO_DB_URI = "mongodb+srv://vcbot:vcbot@cluster0.yqipgxg.mongodb.net/?retryWrites=true&w=majority"
     # REQUIRED
-    # Login to https://my.telegram.org and fill in these slots with the details given by it
+    # Login to https://my.t = ""elegram.org and fill in these slots with the details given by it
     ALLOW_CHATS = True
     API_ID = 1663897  # integer value, dont use ""
     API_HASH = "1875206e088b4afe272ee51fdb310a46"
