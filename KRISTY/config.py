@@ -14,6 +14,8 @@ class Config(object):
     MONGO_DB_URI = "mongodb+srv://vcbot:vcbot@cluster0.yqipgxg.mongodb.net/?retryWrites=true&w=majority"
     ARQ_API_KEY = "EMJCKT-LFEXOP-UVMOXX-QOMCCD-ARQ"
     ARQ_API_URL = "https://arq.hamker.in"
+    TEMP_DOWNLOAD_DIRECTORY = "./"
+    OPENWEATHERMAP_ID = ""
     # REQUIRED
     # Login to https://my.t = ""elegram.org and fill in these slots with the details given by it
     ALLOW_CHATS = True
