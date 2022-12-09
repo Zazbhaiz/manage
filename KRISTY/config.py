@@ -13,6 +13,7 @@ class Config(object):
     LOGGER = True
     MONGO_DB_URI = "mongodb+srv://vcbot:vcbot@cluster0.yqipgxg.mongodb.net/?retryWrites=true&w=majority"
     ARQ_API_KEY = "EMJCKT-LFEXOP-UVMOXX-QOMCCD-ARQ"
+    ARQ_API_URL = "https://arq.hamker.in"
     # REQUIRED
     # Login to https://my.t = ""elegram.org and fill in these slots with the details given by it
     ALLOW_CHATS = True
