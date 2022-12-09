@@ -26,11 +26,15 @@ class Config(object):
     OWNER_USERNAME = "Zazbhai"
     SUPPORT_CHAT = "KRISTY_AF"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
-        -1001692951318
+        -1001704784226
     )  # Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = (
-        -1001690301851
-    )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
+        -1001704784226
+    ) 
+    ERROR_LOG = (
+        -1001704784226
+    )
+    # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
     SQLALCHEMY_DATABASE_URI = "postgres://adltsqzy:cxsiGjfKE7UxidozcBFj1jFv2Geey4Ft@mouse.db.elephantsql.com/adltsqzy"  # needed for any database modules
