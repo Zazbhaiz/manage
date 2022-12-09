@@ -10,7 +10,7 @@ def get_user_list(config, key):
 
 # Create a new config.py or rename this to config.py file in same dir and import, then extend this class.
 class Config(object):
-    SESSION_STRING = ""
+   
     INFOPIC = ""
     BOT_USERNAME = "Zazbhaiboy"
     STRING_SESSION = ""
