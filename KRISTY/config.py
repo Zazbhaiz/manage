@@ -12,14 +12,14 @@ def get_user_list(config, key):
 class Config(object):
    
     INFOPIC = ""
-    BOT_USERNAME = "Zazbhaiboy"
-    STRING_SESSION = "1AZWarzkBu0R7WkYNX-EFjoAuqxunLresaNikBLknsBYNdy4cYBeAG5OsnBQZ9t8A0LGz35QDYKMyjl7boBAP3t4dnflTbnTWWDd9672CNO1T5b5y7lURFE0NYlreSpqBBH6yQ3yb29uLLA08X_6PO0WKI4C73RtSzD7IR6PfWN2KpFW2vAnEGWCyZJYu4n_4WtFwkagqW0FPoA3K3kLD9j6Ui521nLJ9JkT5qJMLAThvLKa9hN4lg1UO9-b1feDNYT0v7iIz2-YC1YoIA2qTG3yUIUoI-A1aNVhZ_CEvuMWO4adHFYlBcoc8KthBwbehsrMtt10VWTF8P6dXzMA-XmuYHb8lOxc="
+    BOT_USERNAME = ""
+    STRING_SESSION = ""
     LASTFM_API_KEY = ""
     CF_API_KEY = ""
     LOGGER = True
-    MONGO_DB_URI = "mongodb+srv://vcbot:vcbot@cluster0.yqipgxg.mongodb.net/?retryWrites=true&w=majority"
-    ARQ_API_KEY = "EMJCKT-LFEXOP-UVMOXX-QOMCCD-ARQ"
-    ARQ_API_URL = "https://arq.hamker.in"
+    MONGO_DB_URI = ""
+    ARQ_API_KEY = ""
+    ARQ_API_URL = ""
     TEMP_DOWNLOAD_DIRECTORY = "./"
     OPENWEATHERMAP_ID = ""
     HEROKU_APP_NAME = ""
@@ -27,9 +27,9 @@ class Config(object):
     # REQUIRED
     # Login to https://my.t = ""elegram.org and fill in these slots with the details given by it
     ALLOW_CHATS = True
-    API_ID = 1663897  # integer value, dont use ""
-    API_HASH = "1875206e088b4afe272ee51fdb310a46"
-    TOKEN = "5610720597:AAFpnAaWncbj7IgAf6QJj722C8S8YFzVspM"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    API_ID =   # integer value, dont use ""
+    API_HASH = ""
+    TOKEN = ""  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
     OWNER_ID = 1463712862  # If you dont know, run the bot and do /id in your private chat with it, also an integer
     OWNER_USERNAME = "Zazbhai"
     SUPPORT_CHAT = "KRISTY_AF"  # Your own group for support, do not add the @
@@ -45,13 +45,13 @@ class Config(object):
     # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = "postgres://adltsqzy:cxsiGjfKE7UxidozcBFj1jFv2Geey4Ft@mouse.db.elephantsql.com/adltsqzy"  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = ""  # needed for any database modules
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False
     INFOPIC = True
     URL = None
-    SPAMWATCH_API = "V3_5uuXNGXMRmLpj7WDHx4Ta5i4Dpt9eIcITkThLUVC1CzCgoDgxv~2u9vxyFaH6"  # go to support.spamwat.ch to get key
+    SPAMWATCH_API = ""  # go to support.spamwat.ch to get key
     SPAMWATCH_SUPPORT_CHAT = "@SpamWatchSupport"
 
     # OPTIONAL
